@@ -1,2 +1,2 @@
 # Chegg
-Projects that has been done at Chegg.
+Projects that have been done at Chegg.
