@@ -39,7 +39,7 @@ def process_raw_text_and_prediction(text):
   preds=logits.argmax(-1)[0]
   prediction=labels[preds]
   print(f"Sentiment:{prediction},Confidence Score:{(np.exp(logits)/np.sum(np.exp(logits))).max()}")
-  
-if __name__="__main__":
+ 
+if __name__=="__main__":
     text="Tesla car is awesome!!"
     process_raw_text_and_prediction(text) # Sentiment:joy,Confidence Score:0.9761346578598022
